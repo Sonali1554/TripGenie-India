@@ -36,6 +36,8 @@ with st.sidebar:
 
 ✅ Budget Agent
 
+✅ Packing Agent
+
 ✅ PDF Travel Report
 
 ✅ Multi-Agent Architecture
@@ -61,7 +63,7 @@ query = st.text_area(
 )
 
 # ==================================
-# BUTTON
+# GENERATE BUTTON
 # ==================================
 
 if st.button("🚀 Generate Complete Trip"):
@@ -99,6 +101,7 @@ if st.button("🚀 Generate Complete Trip"):
         profile = result.get("profile", {})
         hotel = result.get("hotel", {})
         budget_data = result.get("budget", {})
+        packing = result.get("packing", [])
 
         # ==================================
         # TIME TAKEN
@@ -145,7 +148,7 @@ if st.button("🚀 Generate Complete Trip"):
             )
 
         # ==================================
-        # IMAGE
+        # DESTINATION IMAGE
         # ==================================
 
         destination = profile.get(
@@ -153,9 +156,7 @@ if st.button("🚀 Generate Complete Trip"):
             ""
         )
 
-        image_path = (
-            f"assets/{destination}.png"
-        )
+        image_path = f"assets/{destination}.png"
 
         if os.path.exists(image_path):
 
@@ -241,16 +242,18 @@ if st.button("🚀 Generate Complete Trip"):
                     "N/A"
                 )
             )
-            st.divider()
-st.header("🎒 Packing Checklist")
 
-packing = result.get(
-    "packing",
-    []
-)
+        # ==================================
+        # PACKING CHECKLIST
+        # ==================================
 
-for item in packing:
-        st.write(f"✅ {item}")
+        st.divider()
+        st.header("🎒 Packing Checklist")
+
+        for item in packing:
+
+            st.write(f"✅ {item}")
+
         # ==================================
         # BUDGET
         # ==================================
@@ -308,7 +311,7 @@ for item in packing:
             )
 
         # ==================================
-        # PDF
+        # PDF DOWNLOAD
         # ==================================
 
         st.divider()
