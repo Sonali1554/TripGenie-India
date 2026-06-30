@@ -96,6 +96,9 @@ Streamlit Dashboard
 * Multi-Agent Architecture
 
 ---
+## 🎥 Project Demo
+▶️ Watch the project demo here:
+https://www.youtube.com/watch?v=jLxfCl_vFq8
 
 ## 📸 Project Screenshots
 
@@ -115,13 +118,11 @@ Streamlit Dashboard
 
 
 
-
-
 ### PDF Report
+<img width="353" height="1000" alt="Screenshot 2026-06-30 161948" src="https://github.com/user-attachments/assets/47659203-9770-4e85-b56e-6d6b421ae7ea" />
 
-▶️ Watch the project demo here:
 
-https://www.youtube.com/watch?v=jLxfCl_vFq8
+
 
 
 ## 📸 Project Screenshots
