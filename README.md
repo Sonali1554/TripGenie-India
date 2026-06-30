@@ -101,16 +101,15 @@ Streamlit Dashboard
 
 ### Home Page
 
-Add screenshot here:
+<img width="1920" height="1200" alt="Screenshot (1206)" src="https://github.com/user-attachments/assets/fec574fc-ac70-43bc-b3cd-d66313f5a47a" />
+<img width="1920" height="1200" alt="Screenshot (1216)" src="https://github.com/user-attachments/assets/0d509158-63c2-4698-8733-f214b2b3bf1c" />
 
-```text
-screenshots/home_page.png
-```
 
 ### Travel Plan Generation
 
-<<img width="1920" height="1200" alt="Screenshot (1207)" src="https://github.com/user-attachments/assets/4739b484-efd4-4f5d-a544-45ab798bb86a" />
-img width="1920" height="1200" alt="Screenshot (1206)" src="https://github.com/user-attachments/assets/13e36836-95cb-409a-bc14-0a3bf1a8f8ef" />
+![Uploading Screenshot (1206).png…]()
+<img width="1920" height="1200" alt="Screenshot (1207)" src="https://github.com/user-attachments/assets/d5814bbf-3871-49ae-a0f5-2f667d279d05" />
+
 
 
 ### PDF Report
