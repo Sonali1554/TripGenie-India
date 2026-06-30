@@ -109,9 +109,9 @@ screenshots/home_page.png
 
 ### Travel Plan Generation
 
-```text
-screenshots/jaipur_trip.png
-```
+<<img width="1920" height="1200" alt="Screenshot (1207)" src="https://github.com/user-attachments/assets/4739b484-efd4-4f5d-a544-45ab798bb86a" />
+img width="1920" height="1200" alt="Screenshot (1206)" src="https://github.com/user-attachments/assets/13e36836-95cb-409a-bc14-0a3bf1a8f8ef" />
+
 
 ### PDF Report
 
