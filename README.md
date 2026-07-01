@@ -1,4 +1,4 @@
-# TripGenie India IN
+# TripGenie India 
 
 ### AI-Powered Multi-Agent Travel Planning System
 
